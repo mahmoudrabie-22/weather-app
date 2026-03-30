@@ -1,17 +1,29 @@
-# weather_again
+🌤️ Weather App
 
-A new Flutter project.
+A simple and clean weather application built using Flutter.
+The app allows users to check current weather conditions for any city.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# weather-app" 
+🚀 Features
+Display current weather data:
+🌡️ Average Temperature
+🔺 Maximum Temperature
+🔻 Minimum Temperature
+📍 Show city name
+🔍 Search for any city بسهولة
+⚡ Fast performance using state management
+🛠️ Technologies Used
+Flutter
+Cubit (Bloc State Management)
+Dio (for API requests)
+REST API (for fetching weather data)
+📱 Screens
+🏠 Home Screen
+Displays weather information for the selected city
+Shows average, max, and min temperatures
+🔎 Search Screen
+Allows user to search for a city
+Updates weather data dynamically
+🧠 How It Works
+The app fetches weather data from an API using Dio
+State is managed using Cubit
+UI updates automatically when new data is received
